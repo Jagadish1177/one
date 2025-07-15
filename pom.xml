@@ -36,6 +36,17 @@
 		    <url>http://3.236.110.68:8081</url>
 		</repository>
   	</distributionManagement>
+
+	<build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.3.2</version>
+    </plugin>
+  </plugins>
+</build>
+
 	
 	<pluginRepositories>
 	    <pluginRepository>    
